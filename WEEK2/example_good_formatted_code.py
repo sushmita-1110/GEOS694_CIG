@@ -134,7 +134,7 @@ def main():
  """Main function to run the program."""
  print("Starting program")
 
- scaled, avg=calculate_stuff(DATA, do_sort=True, scale=2)
+ scaled, avg = calculate_stuff(DATA, do_sort=True, scale=2)
  min_v,max_v = find_extremes(scaled)
  norm = normalize(scaled, target_max=10)
  extra = weird_helper(3, 5)
